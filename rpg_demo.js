@@ -258,3 +258,17 @@ function restart() {
   xpText.innerText = xp;
   goTown();
 }
+
+function easterEgg() {
+  update(locations[7]);
+}
+
+function pickTwo() {
+  pick(2);
+}
+
+function pickEight() {
+  pick(8);
+}
+
+function pick(guess) {}
